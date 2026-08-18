@@ -13,6 +13,7 @@ class _SliderScreenState extends State<SliderScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Slider"),centerTitle: true,backgroundColor: Colors.grey,
+       // title: Text("Slider"),centerTitle: true,backgroundColor: Colors.grey,
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(vertical: 10,horizontal: 35),
