@@ -19,10 +19,12 @@ class _BottonScreenState extends State<BottonScreen> {
       body:Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+         // mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text("$i",style: TextStyle(fontSize: 30),),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
+           // mainAxisAlignment: MainAxisAlignment.center,
             spacing: 15,
             children: [
               ElevatedButton(onPressed: () {
