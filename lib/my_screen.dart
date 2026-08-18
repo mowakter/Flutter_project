@@ -59,6 +59,7 @@ class _MyScreenState extends State<MyScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.cyanAccent,
+        //backgroundColor: Colors.cyanAccent,
         title: Text("Student List"),
       ),
       body: ListView.builder(
@@ -66,6 +67,7 @@ class _MyScreenState extends State<MyScreen> {
         itemBuilder: (context, index) {
           return ListTile(
             leading: CircleAvatar(child: Text("${s[index]["id"]}")),
+           // leading: CircleAvatar(child: Text("${s[index]["id"]}")),
             title: Text("${s[index]["name"]}"),
             subtitle: Text("${s[index]['email']}"),
 
